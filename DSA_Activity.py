@@ -31,17 +31,10 @@ print("#4 answer:", month_expenses)
 
 month_expenses.append(1980)
 print("\n" + separator)
-print("Added New Month, June")
-print(separator)
-print(f"January: ₱{month_expenses[0]}")
-print(f"February: ₱{month_expenses[1]}")
-print(f"March: ₱{month_expenses[2]}")
-print(f"April: ₱{month_expenses[3]}")
-print(f"May: ₱{month_expenses[4]}")
+print("Added New Month")
 print(f"June: ₱{month_expenses[5]}")
 print(separator)
 
 month_expenses[3] -= 200
 print("\nExpenses after refund correction in April:")
 print("#5 answer:", month_expenses)
-
