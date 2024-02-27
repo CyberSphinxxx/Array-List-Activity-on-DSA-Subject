@@ -25,16 +25,36 @@ for expense in month_expenses:
 print("\nDid you spend exactly 2000 pesos in any month?")
 print("#3 answer:", checker_2000)
 
-#I didn't used def because it wasn't taught yet
 print("\nUpdated expenses after June:")
 print("#4 answer:", month_expenses)
 
+# I didn't use def because it wasn't taught yet
+print("\nJune month just finished and your expense is 1980 pesos."
+      "\nAdd this item to our monthly expense list")
+
 month_expenses.append(1980)
 print("\n" + separator)
-print("Added New Month")
+print("Added New Month, June")
+print(separator)
+print(f"January: ₱{month_expenses[0]}")
+print(f"February: ₱{month_expenses[1]}")
+print(f"March: ₱{month_expenses[2]}")
+print(f"April: ₱{month_expenses[3]}")
+print(f"May: ₱{month_expenses[4]}")
 print(f"June: ₱{month_expenses[5]}")
 print(separator)
+
+print("\nYou returned an item that you bought in a month of April and got a refund of 200 pesos."
+      "\nMake a correction to your monthly expense list based on this.")
 
 month_expenses[3] -= 200
 print("\nExpenses after refund correction in April:")
 print("#5 answer:", month_expenses)
+print(separator)
+print(f"January: ₱{month_expenses[0]}")
+print(f"February: ₱{month_expenses[1]}")
+print(f"March: ₱{month_expenses[2]}")
+print(f"April: ₱{month_expenses[3]}")
+print(f"May: ₱{month_expenses[4]}")
+print(f"June: ₱{month_expenses[5]}")
+print(separator)
