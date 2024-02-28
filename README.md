@@ -1,4 +1,5 @@
 # DSA ACTIVITY
+----------------------------------
 
 Let us say your expense for every month are listed below,
 
@@ -14,3 +15,5 @@ Create a list to store these monthly expenses and using that find out:
 3. Find out if you spent exactly 2000 pesos in any month
 4. June month just finished and your expense is 1980 pesos. Add this item to our monthly expense list
 5. You returned an item that you bought in a month of April and got a refund of 200 pesos. Make a correction to your monthly expense list based on this.
+
+----------------------------------
